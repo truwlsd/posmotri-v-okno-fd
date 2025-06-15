@@ -265,7 +265,6 @@ ol {
 .content__video-card:hover {
   outline: 2px solid #D9D9D9;
   outline-offset: 4px;
-  
 }
 
 .content__video-card-thumbnail {
@@ -297,7 +296,6 @@ ol {
   text-decoration: none;
 }
 
-/* Подчеркивание всего текста при наведении на карточку */
 .content__video-card:hover .content__video-card-title,
 .content__video-card:hover .content__video-card-description {
   text-decoration: underline;
