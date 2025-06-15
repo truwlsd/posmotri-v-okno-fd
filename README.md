@@ -1,1 +1,1 @@
-git@github.com:truwlsd/posmotri-v-okno-fd.git
+https://github.com/truwlsd/posmotri-v-okno-fd
