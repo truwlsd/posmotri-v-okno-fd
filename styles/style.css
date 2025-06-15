@@ -235,6 +235,13 @@ ol {
   border: 2px solid #D9D9D9;
 }
 
+.title {
+  font-size: 75px;
+  font-family: Oswald;
+  text-transform: uppercase;
+  line-height: 0.94;
+}
+
 .content__list-container {
   display: flex;
   flex-direction: column;
@@ -333,13 +340,6 @@ ol {
 
 .button:focus-visible {
   outline: 2px solid #D9D9D9;
-}
-
-.title {
-  font-size: 75px;
-  font-family: Oswald;
-  text-transform: uppercase;
-  line-height: 0.94;
 }
 
 .content__accent {
