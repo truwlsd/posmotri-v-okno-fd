@@ -17,7 +17,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
   font-weight: 700;
 }
 
@@ -83,9 +83,8 @@ ol {
   flex-direction: column;
   max-width: 711px;
   width: 100%;
-  gap: 30px;
   padding-top: 78px;
-  row-gap: 16px;
+  row-gap: 7px;
 }
 
 .content__details {
@@ -121,10 +120,12 @@ ol {
 .search-form__fieldset:first-of-type {
   width: 225px;
   height: 54px;
+  margin-bottom: 4px;
 }
 
 .search-form__fieldset:last-of-type {
   width: 212px;
+  margin-bottom: 4px;
 }
 
 .search-form__fieldset-title {
@@ -137,13 +138,14 @@ ol {
   width: 100%;
   border: none;
   border-top: 1px solid currentColor;
-  border-bottom: 1px solid currentColor;
   background: transparent;
   color: inherit;
   font-family: inherit;
   font-size: 18px;
   appearance: none;
   padding: 5px 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .search-form__textfield:hover {
@@ -225,8 +227,9 @@ ol {
   background: transparent;
   border: 1px solid currentColor;
   color: currentColor;
-  font-family: inherit;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -236,7 +239,7 @@ ol {
 
 .title {
   font-size: 75px;
-  font-family: Oswald;
+  font-family: 'Oswald', 'Arial Narrow', sans-serif;
   text-transform: uppercase;
   line-height: 0.94;
 }
@@ -302,11 +305,6 @@ ol {
   text-decoration: none;
 }
 
-.content__card-link:hover .content__video-card {
-  outline: 2px solid #D9D9D9;
-  outline-offset: 4px;
-}
-
 .content__card-link:hover .content__video-card-title,
 .content__card-link:hover .content__video-card-description,
 .content__card-link:active .content__video-card-title,
@@ -315,7 +313,7 @@ ol {
 }
 
 .content__card-link:active {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: #545050;
 }
 
 .content__card-link_current .content__video-card {
@@ -326,8 +324,9 @@ ol {
   background: transparent;
   border: 1px solid currentColor;
   color: currentColor;
-  font-family: inherit;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
+  font-weight: 700;
   cursor: pointer;
   padding: 5px 20px;
 }
